@@ -1,13 +1,13 @@
 # Zip Code Service
 
-A simple Node.js microservice for zip code looks ups. Integrates with [ZipCodeApi.com](https://www.zipcodeapi.com/).
+A simple Node.js microservice for zip code lookups. Integrates with [ZipCodeApi.com](https://www.zipcodeapi.com/).
 
 ## Installation
 1. Register for a free API key at [https://www.zipcodeapi.com/Register](https://www.zipcodeapi.com/Register)
 2. Create a directory named `private` in the root
 3. Create a file named `zip-code-api-creds.json`, plugging in your API key using the file format below 
-4. Change to the root directory in your terminal and run `npm install`
-5. Start the server using `npm start`  
+4. Change to the root directory of this project in your terminal and run `npm install`
+5. Start the server using `npm start` and start plugging in API routes!
 
 ### Credentials file format
 ```javascript
